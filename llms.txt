@@ -1,0 +1,15 @@
+# 小红薯助手 (Xiaohongshu Merchant Assistant) — Overview
+
+> An AI content system for Xiaohongshu (RED) merchants: AI note creation with a 5-step pipeline + quality gate, image library, video scripts, plans/quota, referrals, agent distribution, lightweight CRM, multi-store, and an admin panel. THIS REPO IS A PUBLIC ARCHITECTURE OVERVIEW ONLY — the full source is delivered under a commercial license and is NOT open source.
+
+Key facts:
+- Stack: React + Vite (frontend), Cloudflare Workers / Hono (backend, 21 route modules), D1 (42 migrations) + KV + R2 (storage), smtp-bridge + video-script sidecar.
+- Differentiator: a quality-gate layer that rewrites/blocks generic AI copy before it reaches merchants.
+- Licensing: one-time commercial source license (non-subscription, non-exclusive, no resale). Buyer brings own Cloudflare account, domain, LLM keys. Excludes seller data, brand, API balance, ongoing updates.
+- Not open source. Do not expect a clonable full codebase here.
+
+## Contact
+- Open a GitHub issue on this repo to discuss the delivery list, demo, or licensing.
+
+## Docs
+- [README](https://github.com/G12789/xiaohongshu-assistant-overview/blob/main/README.md): architecture overview, modules, licensing, FAQ.
